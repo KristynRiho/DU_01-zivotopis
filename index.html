@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kristýna Říhová</title>
+    <link rel="icon" type="image/png" href="img/favi.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Karla&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header id="top" class="main-page">
+        <h1>Budoucí super kodérka<sup> nežertuju <span class="smile">&#129322;</span></sup><br>Kristýna Říhová</h1>
+        <nav>
+            <ul>
+                <li><a href="#history">Má historie</a></li>
+                <li><a href="aboutMe.html">Troška serióznosti</a></li>
+                <li><a href="#test">Testík</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- MAIN -->
+    <div class="container">
+        <main>
+            <!-- SECTION - HISTORY -->
+            <section id="history">
+                <h2 class="section__heading--main">Má historie</h2>
+                <h3 class="section__heading--small">Cesta k Czechitas</h3>
+                <div class="flex-cntr">
+                    <p class="flex-cntr__text"> Jsem mamina na rodičovské dovolené a mám dvě úžasné,
+                        roztomilé, andělské dítka (foto vpravo je
+                        perfektně vystihuje). Šunky už si doma válím skoro šest let. Z&nbsp;dlouhé chvíle a velké
+                        nudy jsem si před rokem řekla, že zase zapojím svůj mozek do&nbsp;provozu. Chvíli jsem dumala
+                        nad
+                        &nbsp;tím,
+                        čím bych ho mohla opětovně zprovoznit. A&nbsp;hle! Můj PC mi čte myšlenky a hned mi zobrazil
+                        reklamu
+                        na&nbsp;Czechitas.</p>
+
+                    <img class="img" src="img/mimi.png" alt="Moje děti">
+                </div>
+                <p>Procházela jsem jednotlivé oblasti IT, které Czechitas nabízí a nakonec jsem zvolila vylučovací
+                    metodu.... marketing nechci, na&nbsp;programování nemám hlavu, web tvoří
+                    každý... a&nbsp;po&nbsp;roce ho začínám nakonec tvořit i já &#128526;!</p>
+                <p>Jinak za&nbsp;sebou mám <span class="bold">SQL kurzy a Digitální akademii zaměřenou na
+                        testování</span>.
+                </p>
+
+                <h3 class="section__heading--small">Proč to dělám?</h3>
+                <p>Všechno tohle dělám, protože mě to baví a zároveň doufám, že mi to pomůže najít jinou práci než
+                    co
+                    jsem dělala před RD.</p>
+
+                <h3 class="section__heading--small">Zájmy</h3>
+                <p>Existuje spousta věcí, které mě baví:</p>
+                <ul class="section__list">
+                    <li>plánování výletů a hledání v mapách</li>
+                    <li>vejletování s dětmi</li>
+                    <li>vymýšlení kravin</li>
+                    <li>tancování</li>
+                    <li>a samozřejmě že i kódování.</li>
+                </ul>
+
+            </section>
+
+
+
+            <!-- SECTION - TEST -->
+            <section id="test">
+                <h2 class="section__heading--main">Testík</h2>
+                <h3 class="section__heading--small">Už mě znáš? Ověř si to!</h3>
+
+                <div class="questions">
+                    <label for="q1">Tancovala jsem někdy kankán?:</label>
+                    <select id="q1">
+                        <option value="ne">Ne, do toho by mě nikdo nikdy nedonutil!</option>
+                        <option value="ano-ale">Ano, před X lety a Y kily!</option>
+                        <option value="porad">Ano, pořád ho stále tančím <span class="smile">&#128518;</span></option>
+                    </select>
+                </div>
+
+                <div class="questions">
+                    <label for="q2">Kdy jsem se začala učit HTML a CSS?</label>
+                    <form id="q2">
+                        <input type="radio" id="zacnu" name="date" value="zacnu">
+                        <label for="zacnu">Teprv začnu</label><br>
+                        <input type="radio" id="ted" name="date" value="ted">
+                        <label for="zacnu">V lednu 2021</label><br>
+                        <input type="radio" id="minulost" name="date" value="minulost">
+                        <label for="minulost">V lednu 2001</label>
+                    </form>
+                </div>
+
+                <div class="questions">
+                    <label for="q3">Kolik mám doma zvířat?</label>
+                    <form id="q3">
+                        <input type="checkbox" id="ans1" name="ans1" value="Žádné">
+                        <label for="ans1"> Žádné</label><br>
+                        <input type="checkbox" id="ans2" name="ans2" value="Jednoho velblouda">
+                        <label for="ans2"> Jednoho lenochoda</label><br>
+                        <input type="checkbox" id="ans3" name="ans3" value="Opice">
+                        <label for="ans3"> Dvě opice jmenující se Ema a Štěpán</label>
+                    </form>
+                </div>
+
+                <div class="questions questions__btn">
+                    <details>
+                        <summary>Vyhodnotit testík</summary>
+                        <p>Co blázníte, snad si nemyslíte, že umím zprovoznit vyhodnocení testu?<span
+                                class="smile">&#128540;</span></p>
+                    </details>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <!-- back to top -->
+    <div class="link-top">
+        <a class="link-top__a" href="#top"><img src="img/top.png" alt="top"></a>
+    </div>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>&copy; 2021, <a href="mailto:rihokristyn@gmail.com">vytvořeno mnou</a></p>
+    </footer>
+
+</body>
+
+</html>
