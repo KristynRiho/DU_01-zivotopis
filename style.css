@@ -1,4 +1,6 @@
-* {
+*,
+*::after,
+*::before {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -108,12 +110,6 @@ header li a:focus {
   padding-top: 15px;
 }
 
-.section__heading--main--about {
-  text-align: center;
-  margin: 2% 0;
-  padding-top: 15px;
-}
-
 .section__heading--main::after {
   content: "";
   display: block;
@@ -121,6 +117,12 @@ header li a:focus {
   border: 2px solid orangered;
   border-radius: 10px;
   margin: 1% auto;
+}
+
+.section__heading--main--about {
+  text-align: center;
+  margin: 2% 0;
+  padding-top: 15px;
 }
 
 .section__heading--small {
@@ -135,6 +137,7 @@ header li a:focus {
 .about--bio {
   margin-top: 4px !important;
 }
+
 .about {
   font-style: italic;
   margin-top: 40px;
